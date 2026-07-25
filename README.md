@@ -1,4 +1,4 @@
-# 🏥 Hospital Management System Backend
+# 🏥 Healthcare Management System
 
 A secure Hospital Management System Backend developed using **Java**, **Spring Boot**, **Spring Security**, **JWT Authentication**, **Spring Data JPA**, **Hibernate**, and **MySQL**.
 
