@@ -79,7 +79,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     });
 
-    // Logout
 
     document.getElementById("logoutBtn").addEventListener("click", function() {
 
