@@ -95,15 +95,13 @@ This project uses **JWT (JSON Web Token)** for secure authentication and **Role-
 
 ### Login
 
-(Add Screenshot Here)
+login_page.png
 
 ### Dashboard
 
-(Add Screenshot Here)
+admin_dashboard.png
 
-### Postman API Testing
 
-(Add Screenshot Here)
 
 ---
 
