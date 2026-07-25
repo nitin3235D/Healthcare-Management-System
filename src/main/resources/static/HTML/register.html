@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hospital Management System | Register</title>
+
+<!-- Font Awesome -->
+
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<!-- CSS -->
+
+<link rel="stylesheet" href="../css/register.css">
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<!-- ================= LEFT PANEL ================= -->
+
+		<div class="left-panel">
+
+			<div class="brand">
+
+				<i class="fa-solid fa-heart-pulse"></i>
+
+				<h2>MediCare</h2>
+
+			</div>
+
+
+			<div class="welcome">
+
+				<h1>Create Account</h1>
+
+				<p>Join our Hospital Management System to book appointments,
+					access your medical records and manage your healthcare securely
+					from anywhere.</p>
+
+			</div>
+
+
+			<!-- Heart Beat -->
+
+			<div class="heartbeat">
+
+				<svg viewBox="0 0 500 100">
+
+                <path
+						d="M0 50
+                         L70 50
+                         L95 50
+                         L115 15
+                         L135 85
+                         L155 20
+                         L180 50
+                         L250 50
+                         L280 40
+                         L300 60
+                         L330 50
+                         L500 50" />
+
+            </svg>
+
+			</div>
+
+
+			<!-- Doctor Image -->
+
+		<!--  	<div class="illustration">
+
+				<img src="../assets/images/sdr.png" alt="Doctor">
+
+			</div>  -->
+
+		</div>
+
+
+
+		<!-- ================= RIGHT PANEL ================= -->
+
+		<div class="right-panel">
+
+			<div class="register-card">
+
+
+				<!-- Toggle -->
+
+				<div class="toggle">
+
+					<button id="loginBtn">Sign In</button>
+
+					<button class="active">Register</button>
+
+				</div>
+
+
+				<!-- Heading -->
+
+				<div class="heading">
+
+					<h2>Create Account</h2>
+
+					<p>Fill your information to register.</p>
+
+				</div>
+
+
+				<!-- Register Form -->
+
+				<form id="registerForm">
+
+
+					<!-- ================= GRID START ================= -->
+
+					<div class="form-grid">
+
+
+						<!-- Full Name -->
+
+						<div class="input-box">
+
+							<i class="fa-solid fa-user"></i> <input type="text" id="name"
+								placeholder="Full Name" required>
+
+						</div>
+
+
+
+						<!-- Email -->
+
+						<div class="input-box">
+
+							<i class="fa-solid fa-envelope"></i> <input type="email"
+								id="email" placeholder="Email Address" required>
+
+						</div>
+
+
+
+						<!-- Phone -->
+
+						<div class="input-box">
+
+							<i class="fa-solid fa-phone"></i> <input type="text" id="phone"
+								placeholder="Phone Number" required>
+
+						</div>
+
+
+
+						<!-- Gender -->
+
+						<div class="input-box">
+
+							<i class="fa-solid fa-venus-mars"></i> <select id="gender"
+								required>
+
+								<option value="">Select Gender</option>
+
+								<option value="Male">Male</option>
+
+								<option value="Female">Female</option>
+
+								<option value="Other">Other</option>
+
+							</select>
+
+						</div>
+
+
+
+						<!-- Blood Group -->
+
+						<div class="input-box">
+
+							<i class="fa-solid fa-droplet"></i> <select id="bloodGroup"
+								required>
+
+								<option value="">Blood Group</option>
+
+								<option>A+</option>
+								<option>A-</option>
+								<option>B+</option>
+								<option>B-</option>
+								<option>AB+</option>
+								<option>AB-</option>
+								<option>O+</option>
+								<option>O-</option>
+
+							</select>
+
+						</div>
+
+
+
+						<!-- Date Of Birth -->
+
+						<div class="input-box">
+
+							<i class="fa-solid fa-calendar"></i> <input type="date" id="dob"
+								required>
+
+						</div>
+
+
+						<!-- Password -->
+
+						<div class="input-box">
+
+							<i class="fa-solid fa-lock"></i> <input type="password"
+								id="password" placeholder="Password" required>
+
+						</div>
+
+
+						<!-- Confirm Password -->
+
+						<div class="input-box">
+
+							<i class="fa-solid fa-lock"></i> <input type="password"
+								id="confirmPassword" placeholder="Confirm Password" required>
+
+						</div>
+
+					</div>
+
+					<!-- ================= GRID END ================= -->
+
+
+					<!-- Address (Full Width) -->
+
+					<div class="input-box full-width">
+
+						<i class="fa-solid fa-location-dot"></i> <input type="text"
+							id="address" placeholder="Address" required>
+
+					</div>
+
+
+					<!-- Register Button -->
+
+					<button type="submit" class="register-btn">
+
+						<i class="fa-solid fa-user-plus"></i> Create Account
+
+					</button>
+
+				</form>
+
+
+				<!-- Login Link -->
+
+				<div class="login-link">
+
+					<p>
+
+						Already have an account? <a href="index.html"> Sign In </a>
+
+					</p>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+	<!-- JavaScript -->
+
+	<script src="../js/register.js"></script>
+
+</body>
+
+</html>

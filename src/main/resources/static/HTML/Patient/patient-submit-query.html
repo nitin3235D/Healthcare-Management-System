@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Submit Query</title>
+
+<link rel="stylesheet" href="/css/patient/patient-submit-query.css">
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<!-- Sidebar -->
+
+		<aside class="sidebar">
+
+			<h2>Patient Panel</h2>
+
+			<ul>
+
+				<li><a href="patient-dashboard.html">Dashboard</a></li>
+
+				<li><a href="patient-submit-query.html" class="active">
+						Submit Query </a></li>
+
+				<li><a href="patient-query.html"> My Queries </a></li>
+
+				<li><a href="#" id="logoutBtn"> Logout </a></li>
+
+			</ul>
+
+		</aside>
+
+		<!-- Main Content -->
+
+		<main class="main-content">
+
+			<div class="form-card">
+
+				<h1>Submit Medical Query</h1>
+
+				<form id="queryForm">
+
+					<label>Subject</label> <input type="text" id="subject"
+						placeholder="Enter Subject" required> <label>Description</label>
+
+					<textarea id="description" rows="7"
+						placeholder="Describe your health problem..." required></textarea>
+
+					<button type="submit">Submit Query</button>
+
+				</form>
+
+			</div>
+
+		</main>
+
+	</div>
+
+	<script src="/js/patient/patient-submit-query.js"></script>
+
+</body>
+
+</html>

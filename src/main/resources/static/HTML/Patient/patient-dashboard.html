@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patient Dashboard</title>
+
+<link rel="stylesheet" href="/css/patient/patient.css">
+</head>
+
+<body>
+
+	<div class="container">
+
+		<aside class="sidebar">
+
+			<h2>Patient Panel</h2>
+
+			<ul>
+
+				<li><a href="patient-dashboard.html" class="active">
+						Dashboard </a></li>
+
+				<li><a href="patient-submit-query.html"> Submit Query </a></li>
+
+				<li><a href="patient-query.html"> My Queries </a></li>
+
+				<li><a href="#" id="logoutBtn"> Logout </a></li>
+
+			</ul>
+		</aside>
+
+
+		<main class="main-content">
+
+			<h1 id="welcomeText">Welcome Patient</h1>
+
+			<div class="action-bar">
+
+				<a href="patient-submit-query.html" class="submit-btn"> + Submit
+					New Query </a>
+
+			</div>
+
+
+			<!-- Patient Information -->
+
+			<div class="profile-card">
+
+				<h2>Patient Information</h2>
+
+				<table>
+
+					<tr>
+						<td>Name</td>
+						<td id="name"></td>
+					</tr>
+
+					<tr>
+						<td>Email</td>
+						<td id="email"></td>
+					</tr>
+
+					<tr>
+						<td>Phone</td>
+						<td id="phone"></td>
+					</tr>
+
+					<tr>
+						<td>Gender</td>
+						<td id="gender"></td>
+					</tr>
+
+					<tr>
+						<td>Blood Group</td>
+						<td id="bloodGroup"></td>
+					</tr>
+
+					<tr>
+						<td>Address</td>
+						<td id="address"></td>
+					</tr>
+
+					<tr>
+						<td>Date of Birth</td>
+						<td id="dob"></td>
+					</tr>
+
+					<tr>
+						<td>Status</td>
+						<td id="status"></td>
+
+					</tr>
+
+					<tr>
+						<td>Registered On</td>
+						<td id="createdAt"></td>
+					</tr>
+
+				</table>
+
+			</div>
+
+	
+
+			<div class="cards">
+
+				<div class="card">
+
+					<h3>Total Queries</h3>
+
+					<p id="totalQuery">0</p>
+
+				</div>
+
+				<div class="card">
+
+					<h3>Pending Queries</h3>
+
+					<p id="pendingQuery">0</p>
+
+				</div>
+
+			</div>
+
+		</main>
+
+	</div>
+
+	<script src="/js/patient/patient.js"></script>
+
+</body>
+
+</html>

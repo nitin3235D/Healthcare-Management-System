@@ -1,0 +1,207 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===========================
+        BODY
+=========================== */
+body {
+	min-height: 100vh;
+	background: radial-gradient(circle at top left, #566879 0%, transparent 35%),
+		radial-gradient(circle at bottom right, #394F61 0%, transparent 35%),
+		linear-gradient(135deg, #08131C 0%, #142434 35%, #263949 70%, #C8D0D6
+		100%);
+	color: white;
+}
+
+/* ===========================
+      DASHBOARD
+=========================== */
+.dashboard-container {
+	display: flex;
+	min-height: 100vh;
+}
+
+/* ===========================
+        SIDEBAR
+=========================== */
+.sidebar {
+	width: 260px;
+	background: rgba(255, 255, 255, .08);
+	backdrop-filter: blur(15px);
+	border-right: 1px solid rgba(255, 255, 255, .15);
+	padding: 30px 20px;
+}
+
+/* ===========================
+        LOGO
+=========================== */
+.logo {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.logo i {
+	font-size: 45px;
+	color: #7dd3fc;
+	margin-bottom: 10px;
+}
+
+.logo h2 {
+	font-size: 28px;
+}
+
+.logo p {
+	color: #d1d5db;
+	margin-top: 5px;
+}
+
+/* ===========================
+        MENU
+=========================== */
+.sidebar ul {
+	list-style: none;
+}
+
+.sidebar ul li {
+	margin-bottom: 12px;
+}
+
+.sidebar ul li a {
+	text-decoration: none;
+	color: white;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	padding: 15px;
+	border-radius: 12px;
+	transition: .3s;
+}
+
+.sidebar ul li a:hover {
+	background: rgba(255, 255, 255, .15);
+	transform: translateX(5px);
+}
+
+.active a {
+	background: rgba(14, 165, 233, .35);
+}
+
+/* ===========================
+      MAIN CONTENT
+=========================== */
+.main-content {
+	flex: 1;
+	padding: 35px;
+}
+
+/* ===========================
+        HEADER
+=========================== */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 35px;
+}
+
+.header h1 {
+	font-size: 32px;
+}
+
+.header p {
+	color: #d1d5db;
+	margin-top: 6px;
+}
+
+/* ===========================
+      ADMIN PROFILE
+=========================== */
+.admin-profile {
+	background: rgba(255, 255, 255, .08);
+	backdrop-filter: blur(10px);
+	padding: 12px 20px;
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-weight: bold;
+}
+
+/* ===========================
+        CARDS
+=========================== */
+.cards {
+	display: flex;
+	gap: 25px;
+	margin-bottom: 40px;
+}
+
+.card {
+	flex: 1;
+	background: rgba(255, 255, 255, .10);
+	backdrop-filter: blur(12px);
+	padding: 30px;
+	border-radius: 18px;
+	text-align: center;
+	border: 1px solid rgba(255, 255, 255, .15);
+	transition: .3s;
+}
+
+.card:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
+}
+
+.card i {
+	font-size: 45px;
+	color: #7dd3fc;
+	margin-bottom: 15px;
+}
+
+.card h3 {
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+.card h2 {
+	font-size: 38px;
+}
+
+/* ===========================
+      WELCOME SECTION
+=========================== */
+.welcome-section {
+	background: rgba(255, 255, 255, .10);
+	backdrop-filter: blur(12px);
+	border-radius: 18px;
+	padding: 35px;
+	border: 1px solid rgba(255, 255, 255, .15);
+}
+
+.welcome-section h2 {
+	margin-bottom: 20px;
+}
+
+.welcome-section p {
+	line-height: 28px;
+	color: #e5e7eb;
+}
+
+/* ===========================
+      RESPONSIVE
+=========================== */
+@media ( max-width :900px) {
+	.dashboard-container {
+		flex-direction: column;
+	}
+	.sidebar {
+		width: 100%;
+	}
+	.cards {
+		flex-direction: column;
+	}
+}

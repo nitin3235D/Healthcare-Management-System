@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Admin Dashboard</title>
+
+<link rel="stylesheet" href="../../css/Admin/admin-dashboard.css">
+
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+	<div class="dashboard-container">
+
+
+		<aside class="sidebar">
+
+			<div class="logo">
+
+				<i class="fa-solid fa-hospital"></i>
+
+				<h2>HMS</h2>
+
+				<p>Admin Panel</p>
+
+			</div>
+
+			<nav>
+
+				<ul>
+
+					<li class="active"><a href="admin-dashboard.html"> <i
+							class="fa-solid fa-house"></i> Dashboard
+
+					</a></li>
+
+					<li><a href="add-doctor.html"> <i
+							class="fa-solid fa-user-doctor"></i> Add Doctor
+
+					</a></li>
+
+					<li><a href="doctor-list.html"> <i
+							class="fa-solid fa-users"></i> View Doctors
+					</a></li>
+
+					<li><a href="#"> <i class="fa-solid fa-hospital-user"></i>
+
+							View Patients
+
+					</a></li>
+
+					<li><a href="#"> <i class="fa-solid fa-calendar-check"></i>
+
+							Appointments
+
+					</a></li>
+
+					<li><a href="#" id="logout"> <i
+							class="fa-solid fa-right-from-bracket"></i> Logout
+
+					</a></li>
+
+				</ul>
+
+			</nav>
+
+		</aside>
+
+		<main class="main-content">
+
+			<header class="header">
+
+				<div>
+
+					<h1>Welcome Admin</h1>
+
+					<p>Hospital Management System Dashboard</p>
+
+				</div>
+
+				<div class="admin-profile">
+
+					<i class="fa-solid fa-user-shield"></i> <span>Admin</span>
+
+				</div>
+
+			</header>
+
+			<section class="cards">
+
+				<div class="card">
+
+					<i class="fa-solid fa-user-doctor"></i>
+
+					<h3>Total Doctors</h3>
+
+					<h2 id="doctorCount">0</h2>
+
+				</div>
+
+				<div class="card">
+
+					<i class="fa-solid fa-hospital-user"></i>
+
+					<h3>Total Patients</h3>
+
+					<h2 id="patientCount">0</h2>
+
+				</div>
+
+				<div class="card">
+
+					<i class="fa-solid fa-notes-medical"></i>
+
+					<h3>Total Queries</h3>
+
+					<h2 id="queryCount">0</h2>
+
+				</div>
+
+				<div class="card">
+
+					<i class="fa-solid fa-clock"></i>
+
+					<h3>Pending Queries</h3>
+
+					<h2 id="pendingCount">0</h2>
+
+				</div>
+
+				<div class="card">
+
+					<i class="fa-solid fa-circle-check"></i>
+
+					<h3>Answered Queries</h3>
+
+					<h2 id="answeredCount">0</h2>
+
+				</div>
+
+				<div class="card">
+
+					<i class="fa-solid fa-folder-closed"></i>
+
+					<h3>Closed Queries</h3>
+
+					<h2 id="closedCount">0</h2>
+
+				</div>
+
+			</section>
+
+
+			<section class="welcome-section">
+
+				<h2>Hospital Management System</h2>
+
+				<p>
+
+					Welcome to Admin Dashboard. <br> <br> You can manage
+					Doctors, Patients, Appointments and all hospital activities from
+					here.
+
+				</p>
+
+			</section>
+
+		</main>
+
+	</div>
+
+	<script src="../../js/Admin/admin-dashboard.js"></script>
+
+</body>
+
+</html>
