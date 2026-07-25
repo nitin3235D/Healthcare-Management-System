@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", loadMyQueries);
 
-// Load Patient Queries
+
 function loadMyQueries() {
 
     const token = localStorage.getItem("jwtToken");
