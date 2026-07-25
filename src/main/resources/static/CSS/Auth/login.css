@@ -1,13 +1,9 @@
-/*==================================================
-                GOOGLE FONT
-==================================================*/
+
 @import
 	url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap')
 	;
 
-/*==================================================
-                    RESET
-==================================================*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -32,9 +28,7 @@ body {
 		100%);
 }
 
-/*==================================================
-            BACKGROUND BLUR LIGHT
-==================================================*/
+
 body::before {
 	content: "";
 	position: absolute;
@@ -61,9 +55,7 @@ body::after {
 	opacity: .18;
 }
 
-/*==================================================
-                MAIN CONTAINER
-==================================================*/
+
 .container {
 	width: 1180px;
 	max-width: 94%;
@@ -76,9 +68,7 @@ body::after {
 	box-shadow: 0 30px 80px rgba(0, 0, 0, .45);
 }
 
-/*==================================================
-                LEFT PANEL
-==================================================*/
+
 .left-panel {
 	width: 50%;
 	padding: 60px;
@@ -89,9 +79,7 @@ body::after {
 	color: white;
 }
 
-/*==================================================
-                    BRAND
-==================================================*/
+
 .brand {
 	display: flex;
 	align-items: center;
@@ -109,9 +97,7 @@ body::after {
 	letter-spacing: 1px;
 }
 
-/*==================================================
-                WELCOME
-==================================================*/
+
 .welcome {
 	margin-top: 20px;
 }
@@ -130,9 +116,7 @@ body::after {
 	color: #D5DEE4;
 }
 
-/*==================================================
-                HEARTBEAT
-==================================================*/
+
 .heartbeat {
 	width: 100%;
 	margin: 35px 0;
@@ -164,9 +148,7 @@ to {
 
 }
 
-/*==================================================
-                DOCTOR IMAGE
-==================================================*/
+
 .illustration {
 	display: flex;
 	justify-content: center;
@@ -179,9 +161,7 @@ to {
 	object-fit: contain;
 }
 
-/*==================================================
-                RIGHT PANEL
-==================================================*/
+
 .right-panel {
 	width: 50%;
 	display: flex;
@@ -190,9 +170,7 @@ to {
 	background: #203445;
 }
 
-/*==================================================
-                LOGIN CARD
-==================================================*/
+
 .login-card {
 	width: 430px;
 	padding: 45px;
@@ -204,9 +182,7 @@ to {
 		rgba(0, 0, 0, .35);
 }
 
-/*==================================================
-                TOGGLE
-==================================================*/
+
 .toggle {
 	display: flex;
 	background: #07131C;
@@ -239,9 +215,7 @@ to {
 	font-weight: 600;
 }
 
-/*==================================================
-                HEADING
-==================================================*/
+
 .heading {
 	margin-bottom: 35px;
 }
@@ -258,9 +232,7 @@ to {
 	line-height: 26px;
 }
 
-/*==================================================
-                INPUT BOX
-==================================================*/
+
 .input-box {
 	width: 100%;
 	height: 60px;
@@ -283,18 +255,14 @@ to {
 	box-shadow: 0 0 18px rgba(255, 255, 255, .08);
 }
 
-/*==================================================
-                INPUT ICON
-==================================================*/
+
 .input-box i {
 	font-size: 18px;
 	color: #C8D0D6;
 	margin-right: 14px;
 }
 
-/*==================================================
-                    INPUT
-==================================================*/
+
 .input-box input {
 	width: 100%;
 	border: none;
@@ -310,18 +278,14 @@ to {
 	color: #8798A5;
 }
 
-/*==================================================
-            AUTOFILL FIX
-==================================================*/
+
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus
 	{
 	-webkit-box-shadow: 0 0 0 1000px #0B1823 inset !important;
 	-webkit-text-fill-color: #EEF2F5 !important;
 }
 
-/*==================================================
-            REMEMBER SECTION
-==================================================*/
+
 .remember {
 	display: flex;
 	justify-content: space-between;
@@ -351,9 +315,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 	color: #FFFFFF;
 }
 
-/*==================================================
-                LOGIN BUTTON
-==================================================*/
+
 .login-btn {
 	width: 100%;
 	height: 58px;
@@ -377,9 +339,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 	transform: scale(.98);
 }
 
-/*==================================================
-            REGISTER SECTION
-==================================================*/
+
 .register {
 	margin-top: 28px;
 	text-align: center;
@@ -400,9 +360,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 	text-decoration: underline;
 }
 
-/*==================================================
-        FLOATING PLUS DECORATION
-==================================================*/
+
 .container::before {
 	content: "+";
 	position: absolute;
@@ -423,9 +381,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 	font-weight: 700;
 }
 
-/*==================================================
-            RESPONSIVE
-==================================================*/
+
 @media ( max-width :992px) {
 	body {
 		padding: 20px;
