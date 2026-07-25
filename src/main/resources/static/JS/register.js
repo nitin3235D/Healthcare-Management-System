@@ -1,6 +1,4 @@
-// ==========================================
-// Login Button Navigation
-// ==========================================
+
 
 document
     .getElementById("loginBtn")
@@ -11,9 +9,6 @@ document
     });
 
 
-// ==========================================
-// Register Form
-// ==========================================
 
 const registerForm = document.getElementById("registerForm");
 
@@ -21,9 +16,7 @@ registerForm.addEventListener("submit", async function(event) {
 
     event.preventDefault();
 
-    // ============================
-    // Get Form Values
-    // ============================
+
 
     const name = document.getElementById("name").value.trim();
 
@@ -47,9 +40,6 @@ registerForm.addEventListener("submit", async function(event) {
         .trim();
 
 
-    // ============================
-    // Validation
-    // ============================
 
     if (
         name === "" ||
@@ -77,9 +67,7 @@ registerForm.addEventListener("submit", async function(event) {
     }
 
 
-    // ============================
-    // JSON Object
-    // ============================
+    
 
     const registerData = {
 
@@ -102,9 +90,6 @@ registerForm.addEventListener("submit", async function(event) {
     };
 
 
-    // ============================
-    // API Call
-    // ============================
 
     try {
 
@@ -123,9 +108,6 @@ registerForm.addEventListener("submit", async function(event) {
         });
 
 
-        // ============================
-        // Success
-        // ============================
 
         if (response.ok) {
 
@@ -137,9 +119,6 @@ registerForm.addEventListener("submit", async function(event) {
 
         }
 
-        // ============================
-        // Error
-        // ============================
 
         else {
 
