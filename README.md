@@ -93,13 +93,37 @@ This project uses **JWT (JSON Web Token)** for secure authentication and **Role-
 
 ## 📸 Screenshots
 
-### Login
+### Login Page
 
-login_page.png
+![Login Page](login_page.png)
 
-### Dashboard
+### Register Page
 
-admin_dashboard.png
+![Register Page](register.png)
+
+### Admin Dashboard
+
+![Admin Dashboard](admin_dashboard.png)
+
+### Patient Dashboard
+
+![Patient Dashboard](patient_dashboard.png)
+
+### Add Doctor
+
+![Add Doctor](add_doctor.png)
+
+### View Doctor
+
+![View Doctor](view_doctor.png)
+
+### Submit Query
+
+![Submit Query](submit_query.png)
+
+### My Query
+
+![My Query](my_query.png)
 
 
 
